@@ -1,4 +1,4 @@
-package com.example.lab09
+package com.example.lab09.ui.theme.viewmodel
 
 import android.util.Log
 import androidx.compose.foundation.layout.Column
@@ -26,6 +26,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
+import com.example.lab09.data.api.PostApiService
+import com.example.lab09.data.model.PostModel
 
 @Composable
 fun ScreenPosts(navController: NavHostController, servicio: PostApiService) {

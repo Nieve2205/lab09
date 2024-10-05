@@ -1,5 +1,6 @@
-package com.example.lab09
+package com.example.lab09.data.api
 
+import com.example.lab09.data.model.PostModel
 import retrofit2.http.GET
 import retrofit2.http.Path
 
